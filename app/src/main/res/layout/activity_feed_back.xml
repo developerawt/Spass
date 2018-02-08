@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relativeMainId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/etfeedbackId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/_140sdp"
+                android:background="@drawable/bg_image"
+                android:gravity="start|center"
+                android:hint="Enter Feedback"
+                android:inputType="textPersonName|textMultiLine"
+                android:maxLines="3"
+                android:padding="@dimen/_15sdp"
+
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/btnSendFeedBackId"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etfeedbackId"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/bg_button"
+                android:padding="@dimen/_8sdp"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/_280sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_image" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

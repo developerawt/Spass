@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/header_parent"
+        layout="@layout/layout_toolbar" />
+
+    <RelativeLayout
+        android:id="@+id/relativeMainAccountId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_parent"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/linearSecondAccountId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_18sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_8sdp"
+                android:text="@string/registerd_number"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLoginNumberAccountId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_8sdp"
+                android:text="@string/number"
+                android:textSize="@dimen/_16sdp" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogOutAccountId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearSecondAccountId"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:background="@drawable/bg_button"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/deactivate_account"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/_250sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_image" />
+
+    </RelativeLayout>
+</RelativeLayout>

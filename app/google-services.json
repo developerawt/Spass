@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "803507299646",
+    "firebase_url": "https://spass-bd66e.firebaseio.com",
+    "project_id": "spass-bd66e",
+    "storage_bucket": "spass-bd66e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803507299646:android:e5588d27e7fe0dcf",
+        "android_client_info": {
+          "package_name": "offery.wizzo.in.offery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803507299646-vhl5rkbnk8j0oeffr0mkusgrvkuitfn6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "offery.wizzo.in.offery",
+            "certificate_hash": "26582ce9fc8220be46fe0b7b33e9c94eb354bc9d"
+          }
+        },
+        {
+          "client_id": "803507299646-tbcacugpm8cr0oj15kdh4ge8d8j2fa00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDRGFr6maWzxVvHXsfTcmG2KZVbyEcvYg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803507299646-tbcacugpm8cr0oj15kdh4ge8d8j2fa00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

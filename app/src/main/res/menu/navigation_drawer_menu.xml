@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1">
+        <item
+            android:id="@+id/nav_item_home"
+
+            android:icon="@drawable/fdbk"
+            android:title="News" />
+    </group>
+
+    <group android:id="@+id/grp2">
+        <item
+            android:id="@+id/nav_item_bookmark"
+            android:icon="@drawable/ic_dst"
+            android:title="Directory" />
+    </group>
+    <group android:id="@+id/grp">
+        <item
+            android:id="@+id/nav_item_newp"
+            android:icon="@drawable/ic_setting"
+            android:title="Setting" />
+
+
+    </group>
+    <!--<item android:title="Others">-->
+    <!--<group android:id="@+id/grp4">-->
+    <!--<item-->
+    <!--android:id="@+id/stared"-->
+    <!--android:title="Starred"-->
+    <!--android:icon="@drawable/ic_star"/>-->
+    <!--</group>-->
+    <group android:id="@+id/grp5">
+        <item
+            android:id="@+id/contactid"
+            android:icon="@drawable/ic_phone"
+            android:title="Contact US" />
+    </group>
+    <!--</item>-->
+
+
+    <group android:id="@+id/grp6">
+        <item
+            android:id="@+id/fdkk"
+            android:icon="@drawable/fdbk"
+            android:title="Feedback" />
+    </group>
+    <group android:id="@+id/grp8">
+        <item
+            android:id="@+id/invite_frndz"
+            android:icon="@drawable/ic_refresh"
+            android:title="Invite Friend" />
+    </group>
+    <group android:id="@+id/grp7">
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+    </group>
+
+    <!--<group android:id="@+id/grp9">-->
+    <!--<item-->
+    <!--android:id="@+id/logout"-->
+    <!--android:icon="@drawable/settings"-->
+    <!--android:title="Logout" />-->
+    <!--</group>-->
+
+
+</menu>
